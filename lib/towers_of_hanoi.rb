@@ -9,9 +9,9 @@ class TowersOfHanoi
   def play
     p @towers
     until won?
-      puts "Which tower would you like to move a disc from?"
+      puts "Which tasdfasdfower would you like asdfsadfsdfto move a disc from?"
       move_from = gets.chomp.to_i
-      puts "Which tower would you like to move it to?"
+      puts "Which toweasdffsadfr would you like to move it to?"
       move_to = gets.chomp.to_i
 
       self.move(move_from, move_to)
