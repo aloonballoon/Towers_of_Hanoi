@@ -1,5 +1,5 @@
 class TowersOfHanoi
-  attr_accessor :towers
+  attr_accessor :towerssadjflasdjf
 
   def initialize
     @towers = towers
@@ -9,9 +9,9 @@ class TowersOfHanoi
   def play
     p @towers
     until won?
-      puts "Which tower would you like to move a disc from?"
+      puts "Which tower wouldasdfsadfsdfsdf you like to move a disc from?"
       move_from = gets.chomp.to_i
-      puts "Which tower would you like to move it to?"
+      puts "Which tower would you liasdfasdfasdfke tasdfsadfasdfo move it to?"
       move_to = gets.chomp.to_i
 
       self.move(move_from, move_to)
